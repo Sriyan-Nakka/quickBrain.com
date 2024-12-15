@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Sai Sriyan" />
+    <meta
+      name="description"
+      content="A game where you test your mathematics calculation speed!"
+    />
+    <title>Quick Brain</title>
+    <link
+      rel="icon"
+      href="https://res.cloudinary.com/dxcywxeqq/image/upload/v1718110861/w5geie9baj8ujhhr8ebp.png"
+    />
+    <style>
+      .icon {
+        width: 60px;
+      }
+      body {
+        font-size: 62.5%;
+        background-color: black;
+        color: white;
+        font-size: 1.6rem;
+        text-align: center;
+      }
+      footer {
+        font-size: 1.25rem;
+      }
+      h1,
+      h2,
+      h3,
+      h4 {
+        text-decoration: underline;
+      }
+    </style>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>🧠 Quick Brain 🧠</h1>
+      <h3>A game where you test your mathematics calculation speed!</h3>
+    </header>
+    <main>
+      <details>
+        <summary>How to Play</summary>
+        <br />
+        Quick Brain is a game where you test your mathematics calculation speed!
+        <br /><br />
+        You have to choose 1 to which table you want to choose to answer
+        questions. You will have to answer 5 questions, you have to answer them
+        as fast as possible. You will get your final time after answering after
+        you answer all of them. <br /><br />Good Luck!
+      </details>
+      <br />
+      <label>Enter maximum number: </label>
+      <input type="number" min="1" max="100" id="maxNum" /><br />
+      <br />
+      <button id="playButton">Play</button>
+      <div id="problems"></div>
+    </main>
+    <br />
+    <hr />
+    <footer>&copy;Copyright, Sai Sriyan Nakka. <br />Version 0.1</footer>
+  </body>
+</html>
